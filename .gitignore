@@ -1,0 +1,22 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# IDE and macOS
+.idea/
+.vscode/
+.DS_Store
+
+# Local databases and generated files
+*.db
+*.sqlite3
+*.log
